@@ -1,0 +1,42 @@
+$primary-color: #f4f4f4;
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: $primary-color;
+}
+
+.loginForm {
+  margin: 20px auto;
+  width: 300px;
+}
+
+.loginForm input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.userInfo {
+  margin: 20px auto;
+  width: 300px;
+}
+
+.userInfo button {
+  margin: 5px;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+  .loginForm,
+  .userInfo {
+    width: 80%;
+  }
+}

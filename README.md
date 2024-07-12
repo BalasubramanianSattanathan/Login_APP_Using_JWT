@@ -4,10 +4,10 @@ This project demonstrates a full-stack application using React for the frontend 
 
 ## Project Structure
 
-- **Frontend:** React application that handles user interface and authentication.
-- **Backend:** Node.js server that manages authentication and user data.
+- **front-end:** React application that handles user interface and authentication.
+- **back-end:** Node.js server that manages authentication and user data.
 
-## Frontend
+## front-end
 
 ### Features
 - User login functionality with credential validation.
@@ -29,7 +29,7 @@ This project demonstrates a full-stack application using React for the frontend 
    npm start
 4. Open your browser and go to http://localhost:3000.
 
-## Backend
+## back-end
 
 ### Features
 - API endpoints for user authentication.
